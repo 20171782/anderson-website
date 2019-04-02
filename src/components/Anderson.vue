@@ -1,5 +1,5 @@
 <template>
-    <div style="border-top:3px solid darkgreen;padding-bottom: 100px">
+    <div style="padding-bottom: 100px">
         <div class="uk-container uk-container-small">
             <h2 style="padding-top: 20px" class="uk-heading-line uk-text-center">Antonio Anderson</h2>
             <hr>
@@ -8,13 +8,13 @@
 
                     <ul class="uk-slideshow-items">
                         <li>
-                            <!--<img src="@/assets/andy3.png" alt="">-->
+                            <img src="logo.png" alt="">
                         </li>
                         <li>
-                            <!--<img src="@/assets/download.jpg" alt="">-->
+                            <img src="logo.png" alt="">
                         </li>
                         <li>
-                            <!--<img src="@/assets/preach.jpg" alt="">-->
+                            <img src="logo.png" alt="">
                         </li>
                     </ul>
                     <hr>
@@ -29,12 +29,15 @@
                 </div>
                 <div>
                     <button style='width: 10px' class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example">
-                        <span>
-                            Anthonio A. Anderson Sr. is a native of the beautiful
-                            island of Jamaica, who until last year resided in Florida, USA.
-                        </span>
+                        <p style="color: #013558">
+                                Anthonio A. Anderson Sr. is a native of the beautiful
+                                island of Jamaica, who until last year resided in Florida, USA.
+                                He is from the parish of Kingston, even though he is often
+                                quoted as saying, “I am from central Jamaica,” having lived in St. Catherine, Clarendon, and
+                                Manchester at different stages of his life.
+                        </p>
 
-                        <br> <button style="padding-left: 10px" class="uk-button uk-button-primary uk-button-small">Read More</button></button>
+                        <br> <button style="padding-left: 10px;background-color: #013558;color: white" class="uk-button  uk-button-small">Read More</button></button>
                          <div id="modal-example" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <h2 class="uk-modal-title">Antonio Anderson</h2>
@@ -97,7 +100,7 @@
 <style scoped>
     div
     {
-        background-color: black;
+        /*background-color: black;*/
 
     }
     img:hover {
@@ -135,12 +138,16 @@
     }
     span
     {
-        color: white;
+        ;
     }
     img.sticky {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
         width: 200px;
+    }
+    .header-holder.tt-logo-center {
+        background-image: linear-gradient(to bottom, #013558 84%);
+        -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
     }
 </style>

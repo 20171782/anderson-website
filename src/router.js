@@ -41,11 +41,11 @@ export default new Router({
       name: 'contact',
       component:Contact
     },
-    {
-      path: '/events',
-      name: 'events',
-      component:Events
-    },
+    // {
+    //   path: '/events',
+    //   name: 'events',
+    //   component:Events
+    // },
     {
       path: '/user',
       name: 'userPage',

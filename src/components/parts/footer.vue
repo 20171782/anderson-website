@@ -1,5 +1,5 @@
 <template>
-    <div id="TamplateBase" style="border-to: 500px;border-top:3px solid darkgreen">
+    <div id="TamplateBase" style="border-to: 500px;border-top:3px solid darkgreen" class="testStep header-holder tt-logo-center " >
         <div class="uk-container uk-container-small uk-padding">
             <div class="uk-child-width-1-3" uk-grid>
                 <div>
@@ -46,9 +46,13 @@
     /*background-size: 1500px 700px;*/
 }
     li,h4{
-        color: darkgreen;
+color:white;
     }
     div{
-        border-top:darkgreen;
+       color: white;
     }
+.header-holder.tt-logo-center {
+    background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
+    -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
+}
 </style>

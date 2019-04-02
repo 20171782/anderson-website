@@ -1,11 +1,12 @@
 <template>
     <div>
         <navbar></navbar>
+<!--        <br>-->
         <videos></videos>
-
+        <br>
         <event/>
         <andy/>
-        <gallery/>
+<!--        <gallery/>-->
 
         <foot/>
         <router-view/>

@@ -18,16 +18,16 @@
 
 <style scoped>
 a{
-    /*background-color: rgba(0,0,0, 0.4),*/
-    background-color: white;
+    background-color: rgba(0,0,0, 0.4);
+    background-color: #013558;
 }
     h4
     {
-        color: darkgreen;
+        color: white;
     }
     a:hover{
         /*background-color: rgba(0,0,0, 0.4),*/
-        background-color: white;
+        /*background-color: white;*/
     }
 
 </style>

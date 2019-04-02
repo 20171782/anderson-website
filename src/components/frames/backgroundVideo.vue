@@ -1,6 +1,6 @@
 <template>
-    <div class="testStep "  >
-        <div style="background:#1B5E20 ">
+    <div class="testStep header-holder tt-logo-center "  >
+        <div style="">
             <div class="uk-container uk-container-small" >
                 <div style="padding-left: 0;">
                     <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push; ratio: 16:9;" style="padding-left: 0;">
@@ -65,5 +65,9 @@
 <style scoped>
     .testStep{
         background-image: url();
+    }
+    .header-holder.tt-logo-center {
+        background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
+        -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
     }
 </style>
