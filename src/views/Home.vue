@@ -1,7 +1,7 @@
 <template>
     <div>
         <navbar></navbar>
-        <videos><cards></cards></videos>
+        <videos></videos>
 
         <event/>
         <andy/>

@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <!--<h1>This is an about page</h1>-->
-    <img src="@/assets/footer.jpg" alt="">
+    <!--<img src="@/assets/footer.jpg" alt="">-->
     <event/>
   </div>
 </template>

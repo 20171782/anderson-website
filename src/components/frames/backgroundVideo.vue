@@ -1,54 +1,69 @@
 <template>
-    <div>
-        <div class="uk-inline">
-            <div class="carStyle" >
+    <div class="testStep "  >
+        <div style="background:#1B5E20 ">
+            <div class="uk-container uk-container-small" >
+                <div style="padding-left: 0;">
+                    <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push; ratio: 16:9;" style="padding-left: 0;">
 
-                <section id="myVideo">
-                    <video autoplay playsinline loop muted ref="video" style="width: 1500px">
-                        <source src='@/assets/cen.mp4'  type="video/mp4">
-                    </video>
-                    <slot></slot>
-                </section>
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="footer.jpg" alt="" uk-cover>
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-padding-small">
+                                    <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="footer.jpg" alt="" uk-cover>
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                                    <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="footer.jpg" alt="" uk-cover>
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                                    <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="footer.jpg" alt="" uk-cover>
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                                    <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="footer.jpg" alt="" uk-cover>
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                                    <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </li>
 
+                        </ul>
+
+                        <div class="uk-light">
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
     </div>
 </template>
 
 <script>
     export default {
-        data(){
-            return{
-                source:"https://quirksmode.org/html5/videos/big_buck_bunny.mp4"
-            }
-        }
+        name: "carousel"
     }
-
 </script>
 
 <style scoped>
-
-    #myVideo {
-        right: 0;
-        bottom: 0;
-
-
-
-        margin: 0 auto;
-    }
-
-p,h3
-{
-    color:goldenrod;
-}
-    section {
-
-        width: 100%;
-        max-height: 400px;
-
+    .testStep{
+        background-image: url();
     }
 </style>
-

@@ -11,7 +11,7 @@
                         <ul class="uk-list text-style">
                             <li>Telephone: 1 (876) 963-7191/ 963-7804</li>
                             <li>Location: Manchester Rd. Mandeville Manchester </li>
-                            <li> <img src="@/assets/download.jpg" alt="" style="padding-top: 1px"></li>
+                            <!--<li> <img src="@/assets/download.jpg" alt="" style="padding-top: 1px"></li>-->
                         </ul>
                     </div>
                 <div>

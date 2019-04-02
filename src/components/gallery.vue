@@ -9,29 +9,29 @@
                     <img :src="image" alt="Snow" style="">
                 </div>
                 <div class="column">
-                    <img src="@/assets/andy3.png" alt="Forest" style="">
+                    <img src="" alt="Forest" style="">
                 </div>
 
             </div><div class="column">
-                    <img src="@/assets/footer.jpg" alt="Mountains" style="width:200%">
+                    <img src="" alt="Mountains" style="width:200%">
 
                 <div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div><div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div><div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div><div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div><div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div><div class="column">
-                    <img src="@/assets/andy3.png" alt="Mountains" style="width:100%">
+                    <img src="" alt="Mountains" style="width:100%">
 
                 </div>
             </div>

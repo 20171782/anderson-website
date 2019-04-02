@@ -8,13 +8,13 @@
 
                     <ul class="uk-slideshow-items">
                         <li>
-                            <img src="@/assets/andy3.png" alt="">
+                            <!--<img src="@/assets/andy3.png" alt="">-->
                         </li>
                         <li>
-                            <img src="@/assets/download.jpg" alt="">
+                            <!--<img src="@/assets/download.jpg" alt="">-->
                         </li>
                         <li>
-                            <img src="@/assets/preach.jpg" alt="">
+                            <!--<img src="@/assets/preach.jpg" alt="">-->
                         </li>
                     </ul>
                     <hr>
@@ -38,7 +38,7 @@
                          <div id="modal-example" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <h2 class="uk-modal-title">Antonio Anderson</h2>
-                            <img class="sticky" src="@/assets/andy3.png" alt="">
+                            <!--<img class="sticky" src="@/assets/andy3.png" alt="">-->
                             <p>
                                 Anthonio A. Anderson Sr. is a native of the beautiful
                                 island of Jamaica, who until last year resided in Florida, USA.
