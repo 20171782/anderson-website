@@ -3,13 +3,14 @@
         <div class="imgcontainer">
         </div>
         <div class="bg-img">
-            <form action="/action_page.php" class="container">
+            <form action="" class="container">
                 <h3 >FORM</h3>
                 <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" style="" required>
+                <input type="text" placeholder="Enter Email" name="email" v-model="email" required>
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required style="">
-                <button style="width: 90px;" type="submit" class="btn">Login</button>
+                <input type="password" placeholder="Enter Password" name="psw" required v-model="password">
+
+                <button style="background:white;color: #013558 " type="" v-on:click="login" class="btn">Login</button>
             </form>
         </div>
     </form>
@@ -17,7 +18,24 @@
 
 <script>
     export default {
-        name: "form"
+        name: "form",
+        data(){
+            return{
+                email:'',
+                password:'',
+                feedback:''
+            }
+        },
+        methods:{
+            login(){
+                if(this.email,this.password){
+                    this.$router.push('/new')
+                    this.feedback=''
+                }else{
+                    this.feedback='please complete the form'
+                }
+            }
+        }
     }
 </script>
 

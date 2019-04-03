@@ -1,6 +1,6 @@
 <template>
     <div class=" ">
-        <h2 style="padding-top: 20px;color: blue" class="uk-heading-line uk-text-center ">Events</h2><hr>
+<!--        <h2 style="padding-top: 20px;color: #013558" class="uk-heading-line uk-text-center ">Events</h2><hr>-->
         <div class="uk-container uk-container-small">
             <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
                 <div v-for="event in events" :key="event.id" class="">
@@ -10,9 +10,9 @@
                             <span>Speaker:   {{event.speaker}}</span><br>
                             <hr>
                             <span>Location: {{event.location}}</span><br>
-<!--                            <hr>-->
-<!--                            <span>Time: {{event.time}}</span><br>-->
-<!--                            <hr>-->
+                            <hr>
+                            <span>Time: {{event.time}}</span><br>
+                            <hr>
 <!--                            <span>Theme: {{event.theme}}</span><br>-->
 <!--                            <hr>-->
 <!--                            <span>Date: {{event.date}}</span><br><br>-->
@@ -70,6 +70,9 @@
     .header-holder.tt-logo-center {
         background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
         -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
+    }
+    span,h3{
+        color: white;
     }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h4 class="uk-heading-bullet text-style">Social Media</h4>
+        <h4 class=" text-style">Social Media</h4>
         <div  class="uk-child-width-1-1 text-style" uk-grid >
             <a href="https://www.facebook.com/ncueducation/" target="_blank" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook" style="color: #3b5998;"></a>
             <a href="https://twitter.com/ncueducation" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="twitter" style="color: #00aced;"></a>
@@ -23,7 +23,7 @@ a{
 }
     h4
     {
-        color: white;
+        color: #013558;
     }
     a:hover{
         /*background-color: rgba(0,0,0, 0.4),*/

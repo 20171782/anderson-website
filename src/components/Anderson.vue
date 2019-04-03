@@ -1,21 +1,22 @@
 <template>
-    <div style="padding-bottom: 100px">
-        <div class="uk-container uk-container-small">
-            <h2 style="padding-top: 20px" class="uk-heading-line uk-text-center">Antonio Anderson</h2>
-            <hr>
+    <div style="padding-bottom: 100px  ">
+        <div class="uk-container  first header-holder tt-logo-center">
+<!--            <hr>-->
+            <h2 style="padding-top: 20px;color: white" class="uk-heading-line uk-text-center">Antonio Anderson</h2>
+
             <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
                 <div class="uk-position-relative uk-light" uk-slideshow>
 
                     <ul class="uk-slideshow-items">
                         <li>
-                            <img src="logo.png" alt="">
+                            <img src="@/assets/andy3.png" alt="">
                         </li>
-                        <li>
-                            <img src="logo.png" alt="">
-                        </li>
-                        <li>
-                            <img src="logo.png" alt="">
-                        </li>
+<!--                        <li>-->
+<!--                            <img src="logo.png" alt="">-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <img src="logo.png" alt="">-->
+<!--                        </li>-->
                     </ul>
                     <hr>
                     <div class="uk-position-bottom-center uk-position-small">
@@ -29,7 +30,7 @@
                 </div>
                 <div>
                     <button style='width: 10px' class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example">
-                        <p style="color: #013558">
+                        <p style="">
                                 Anthonio A. Anderson Sr. is a native of the beautiful
                                 island of Jamaica, who until last year resided in Florida, USA.
                                 He is from the parish of Kingston, even though he is often
@@ -37,11 +38,11 @@
                                 Manchester at different stages of his life.
                         </p>
 
-                        <br> <button style="padding-left: 10px;background-color: #013558;color: white" class="uk-button  uk-button-small">Read More</button></button>
+                        <br> <button style="padding-left: 10px;background-color: white;color: #013558" class="uk-button  uk-button-small">Read More</button></button>
                          <div id="modal-example" uk-modal>
-                        <div class="uk-modal-dialog uk-modal-body">
-                            <h2 class="uk-modal-title">Antonio Anderson</h2>
-                            <!--<img class="sticky" src="@/assets/andy3.png" alt="">-->
+                        <div class="uk-modal-dialog uk-modal-body header-holder tt-logo-center">
+                            <h2 class="uk-modal-title ">Antonio Anderson</h2>
+                            <img class="sticky" src="@/assets/andy3.png" alt="">
                             <p>
                                 Anthonio A. Anderson Sr. is a native of the beautiful
                                 island of Jamaica, who until last year resided in Florida, USA.
@@ -75,11 +76,10 @@
                                 His passion and commitment is to continue evangelizing and lives by his guiding philosophies
                                 which are, “I can do all things through Christ which strengthens me” (Philippians 4:13) and
                                 “You are only limited by your mind.” His favorite scripture is Galatians 6:2 which states,
-                                <span style="color: blue">“Bear one another’s burdens, and so fulfill the law of Christ”</span>
+                                <span style="color: red">“Bear one another’s burdens, and so fulfill the law of Christ”</span>
                             </p>
                             <p class="uk-text-right">
-                                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
-                                <button class="uk-button uk-button-primary" type="button">Save</button>
+                                <button class="uk-button uk-button-default uk-modal-close" type="button" style="color: white">Home</button>
                             </p>
                         </div>
                     </div>
@@ -130,22 +130,14 @@
     }
     p
     {
-        color: goldenrod;
-    }
-    h2
-    {
         color: white;
     }
-    span
-    {
-        ;
+    div{
+
     }
-    img.sticky {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        width: 200px;
-    }
+
+
+
     .header-holder.tt-logo-center {
         background-image: linear-gradient(to bottom, #013558 84%);
         -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);

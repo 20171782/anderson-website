@@ -1,13 +1,15 @@
 <template>
     <div>
-        <navbar></navbar>
+
 <!--        <br>-->
         <videos></videos>
-        <br>
+        <br><br>
         <event/>
+        <br><br>
         <andy/>
+        <views></views>
 <!--        <gallery/>-->
-
+        <br><br>
         <foot/>
         <router-view/>
     </div>
@@ -15,23 +17,26 @@
 
 
 <script>
-    import navbar from '@/components/parts/navbar.vue'
+
     import videos from '@/components/frames/backgroundVideo.vue'
     import cards from '@/components/frames/cards.vue'
     import event from '@/components/frames/event.vue'
     import andy from '@/components/Anderson.vue'
     import gallery from '@/components/gallery.vue'
     import foot from '@/components/parts/footer.vue'
+    import views  from '@/views/viewEvents'
+
 
     export default {
         components:{
-            navbar,
+
             videos,
             cards,
             event,
             andy,
             gallery,
-            foot
+            foot,
+            views
 
         },
 

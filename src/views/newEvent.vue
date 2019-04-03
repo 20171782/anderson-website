@@ -1,24 +1,28 @@
 <template>
-    <div>
-        <navbar></navbar>
-        <div class="uk-container uk-container-small first" style="padding-top:50px ">
+    <div  class="me" style="padding-top:50px ">
+        <div class="icon-bar" style="padding-left: 90px">
+            <social></social>
+        </div>
+        <div class="uk-container  first" >
             <div class="">
                 <div class="">
-                    <h1 class="uk-card-title uk-text-center">Post Your Events</h1>
+                    <h1 class="uk-card-title uk-text-center" style="color: white;padding-top: 20px">Post Your Prayer</h1>
                     <form @submit.prevent="addevent"></form>
                     <label for="name">name</label>
                     <input type="text" v-model="name"/>
-                    <label for="title">title</label>
-                    <input type="text" v-model="title"/>
-                    <label for="Theme">theme</label>
-                    <input type="text" v-model="theme"/>
-                    <label for="time">time</label>
-                    <input type="text" v-model="time"/><br><br>
+                    <label for="title">concern</label>
+                    <input type="text" v-model="concern"/>
+<!--                    <label for="time">time</label>-->
+<!--                    <input type="text" v-model="time"/><br><br>-->
                     <label for="location">location</label>
-                    <input type="text" v-model="location"/><br><br>
-                    <button @click="addevent"  class="uk-button uk-button-primary">login</button>
+                    <input type="text" v-model="location"/><br>
+                    <label for="Theme">prayer</label>
+                    <input type="text" v-model="theme"/>
+                    <p style="color:red" class="uk-text-center" v-if="enter">{{enter}}</p>
+                    <button @click="addevent"  class="uk-button uk-button-primary uk-align-center">Post</button>
+                    <br>
                 </div>
-                <p style="color:red" v-if="enter">{{enter}}</p>
+
             </div>
         </div>
     </div>
@@ -26,12 +30,12 @@
 
 <script>
     import db from '@/firebase/init.js'
-    import navbar from '@/components/parts/navbar.vue'
+    import social from '@/components/frames/socialMedia.vue'
     export default {
         name: "newEvent",
         props:['name'],
         components:{
-            navbar,
+            social
         },
 
         data(){
@@ -39,7 +43,7 @@
                 name:'',
                 time:'',
                 theme:'',
-                title:'',
+                concern:'',
                 location:'',
                 enter:null
             }
@@ -52,7 +56,7 @@
                        name:this.name,
                         time:Date.now(),
                         theme:this.theme,
-                        title:this.title,
+                        concern:this.concern,
                         location:this.location
                     }).catch(function(error) {
                         console.error("Error adding document: ", error);
@@ -73,6 +77,57 @@
         background: #1B5E20;
     }
 .first{
-    max-width:40%
+    max-width:40%;
+    background: #013558;
 }
+   .icon-bar {
+       position: fixed;
+       top: 50%;
+       -webkit-transform: translateY(-50%);
+       -ms-transform: translateY(-50%);
+       transform: translateY(-50%);
+   }
+
+   .icon-bar a {
+       display: block;
+       text-align: center;
+       padding: 16px;
+       transition: all 0.3s ease;
+       color: white;
+       font-size: 20px;
+   }
+
+   .icon-bar a:hover {
+       background-color: #000;
+   }
+
+   .facebook {
+       background: #3B5998;
+       color: white;
+   }
+
+   .twitter {
+       background: #55ACEE;
+       color: white;
+   }
+
+   .google {
+       background: #dd4b39;
+       color: white;
+   }
+
+   .linkedin {
+       background: #007bb5;
+       color: white;
+   }
+
+   .youtube {
+       background: #bb0000;
+       color: white;
+   }
+
+   .content {
+       margin-left: 75px;
+       font-size: 30px;
+   }
 </style>

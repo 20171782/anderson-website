@@ -5,6 +5,7 @@
                 <div>
                     <h4 class="uk-heading-bullet text-style">Prayer Request</h4>
                     <forms></forms>
+
                 </div>
                     <div>
                         <h4 class="uk-heading-bullet text-style">Useful Links</h4>
@@ -55,4 +56,5 @@ color:white;
     background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
     -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
 }
+
 </style>
