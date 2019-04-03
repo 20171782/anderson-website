@@ -10,7 +10,7 @@
         <views></views>
 <!--        <gallery/>-->
         <br><br>
-        <foot/>
+<!--        <foot/>-->
         <router-view/>
     </div>
 </template>

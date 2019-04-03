@@ -6,11 +6,12 @@
          <source src="@/assets/cen.mp4" type="video/mp4" ></video>
      </div>
    </div>
+     <br><br>
    <event/>
  </div>
 </template>
 <script>
-  import event from '@/components/frames/event.vue'
+  import event from '@/components/Anderson.vue'
   export default {
 components:{
   event

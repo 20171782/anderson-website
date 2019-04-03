@@ -29,14 +29,16 @@
 
                 </div>
                 <div>
-                    <button style='width: 10px' class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example">
-                        <p style="">
+                    <button style='width: 10px;background: white' class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #modal-example">
+                        <div class="uk-container-small">
+                            <p style="color: #013558">
                                 Anthonio A. Anderson Sr. is a native of the beautiful
                                 island of Jamaica, who until last year resided in Florida, USA.
                                 He is from the parish of Kingston, even though he is often
                                 quoted as saying, “I am from central Jamaica,” having lived in St. Catherine, Clarendon, and
                                 Manchester at different stages of his life.
-                        </p>
+                            </p>
+                        </div>
 
                         <br> <button style="padding-left: 10px;background-color: white;color: #013558" class="uk-button  uk-button-small">Read More</button></button>
                          <div id="modal-example" uk-modal>
