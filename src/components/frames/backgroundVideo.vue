@@ -53,7 +53,7 @@
         background-image: url();
     }
     .header-holder.tt-logo-center {
-        background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
-        -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
+        background-image: linear-gradient(to bottom, #00695C,#004D40 84%);
+        -pie-background: linear-gradient(to bottom, #00695C, #004D40 84%);
     }
 </style>

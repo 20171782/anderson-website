@@ -53,8 +53,13 @@ color:white;
        color: white;
     }
 .header-holder.tt-logo-center {
-    background-image: linear-gradient(to bottom, #1E6F92, #013558 84%);
-    -pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);
-}
+    background-image: linear-gradient(to bottom, #FFC400, #FF6D00 84%);
+    -pie-background: linear-gradient(to bottom, #FFC400, #FF6D00 84%);
 
+}
+div.transbox {
+
+    opacity: 0.8;
+
+}
 </style>

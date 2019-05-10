@@ -1,11 +1,11 @@
 <template>
-   <div  class="">
+   <div  >
        <nav>
            <div class="nav-wrapper white uk-text-center">
                <img src="@/assets/download.jpg" alt="" style="width: 65px">
            </div>
        </nav>
-       <div uk-sticky="bottom: #offset"  class="header-holder tt-logo-center first transbox">
+       <div uk-sticky="bottom: #offset" style="border-bottom: 2px solid seagreen;border-top: 2px solid seagreen" class="header-holder tt-logo-center first transbox">
            <nav class="uk-container nav-wrapper header-holder tt-logo-center ">
                <div class="nav-wrapper black header-holder tt-logo-center navbar">
 
@@ -16,7 +16,7 @@
                        <li class="uk-active"><router-link to="/contact"><span>CONTACT</span></router-link></li>
                        <li class="uk-active"><router-link to="/event"><span>EVENTS</span></router-link></li>
                        <li>
-                           <a href="#">Our Programmes <span uk-icon="chevron-down"></span></a>
+                           <a href="#">Prayer Wall <span uk-icon="chevron-down"></span></a>
                            <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
                                <ul class="uk-nav uk-navbar-dropdown-nav">
                                    <li><router-link to="/new">Post prayer</router-link></li>
@@ -55,16 +55,18 @@
 
 
 
-.header-holder.tt-logo-center {
-    background-image: linear-gradient(to bottom, #013558 84%);
-    /*-pie-background: linear-gradient(to bottom, #1E6F92, #013558 84%);*/
 
-}
     .first{
         max-height: 90px!important;
     }
 
     .main{
         position:fixed;
+    }
+
+    .header-holder.tt-logo-center {
+        background-image: linear-gradient(to bottom, #FFC400, #FF6D00 84%);
+        -pie-background: linear-gradient(to bottom, #FFC400, #FF6D00 84%);
+
     }
 </style>

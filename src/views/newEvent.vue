@@ -78,8 +78,14 @@
     }
 .first{
     max-width:40%;
-    background: #013558;
+    background-image: linear-gradient(to bottom, #00695C,#004D40 84%);
+    -pie-background: linear-gradient(to bottom, #00695C, #004D40 84%);
+
 }
+   .header-holder.tt-logo-center {
+
+
+   }
    .icon-bar {
        position: fixed;
        top: 50%;
